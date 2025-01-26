@@ -1,3 +1,11 @@
+.{
+
+
+
+
+
+
+
 # Prompt for GitHub username
 Write-Host "Enter the GitHub username:" -ForegroundColor Magenta
 $username = Read-Host
@@ -25,4 +33,15 @@ if (-not (Test-Path -Path $targetDir)) {
 # Clone each repository using HTTPS into the target directory
 foreach ($repo in $repos) {
     git clone https://github.com/$username/$repo.git "$targetDir\$repo"
+}
+
+
+
+
+
+
+
+
+
+
 }
