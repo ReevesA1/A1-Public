@@ -22,7 +22,7 @@ if (-not (Test-Path -Path $targetDir)) {
     New-Item -ItemType Directory -Path $targetDir
 }
 
-# Clone each repository into the target directory
+# Clone each repository using HTTPS into the target directory
 foreach ($repo in $repos) {
-    git clone git@github.com:$username/$repo.git "$targetDir\$repo"
+    git clone https://github.com/$username/$repo.git "$targetDir\$repo"
 }
