@@ -7,9 +7,10 @@ Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubu
 
 ### Copy Scripts
 ```
+rm -rf ~/.local/bin
 mkdir -p ~/.local/bin
 git clone https://github.com/ReevesA1/A1-Public.git
-yes | cp -rf A1-Public/bin/Linux/* ~/.local/bin
+cp -rf A1-Public/bin/Linux/* ~/.local/bin
 rm -rf A1-Public
 chmod +x ~/.local/bin/*
 
