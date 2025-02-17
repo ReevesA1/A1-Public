@@ -16,4 +16,3 @@ rm -rf A1-Public
 chmod +x ~/.local/bin/*
 
 ```
-#t
