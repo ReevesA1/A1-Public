@@ -19,7 +19,5 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 
 # Start Neovim to complete the setup
-nvim
-
 # Optional: Run LazyHealth to check if everything is working correctly
 nvim
