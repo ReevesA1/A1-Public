@@ -1,3 +1,4 @@
+#! Works on Windows, Mac and Linux
 .{
 
     # Prompt for GitHub username
